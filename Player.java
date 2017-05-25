@@ -8,17 +8,24 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Player extends Collision
 {
+    private int hp;
     private static final int MOVE_AMT = 5;
     /**
      * Act - do whatever the Player wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Player() {
+        this.hp = 3;
+    }
     public void act() 
     {
        followMouse();
        move();
        atk();
        getHit();
+       if (this.hp <= 0) {
+           Greenfoot.stop();
+        }
     }
     public void followMouse() {
         MouseInfo mi = Greenfoot.getMouseInfo();
@@ -55,7 +62,11 @@ public class Player extends Collision
         Actor pl = getOneTouchedObject(enemy.class);
         if (!atk()) {
             if (pl != null) {
-                getWorld().removeObject(this);
+                this.hp--;
+                getWorld().moveCamera(-80);
+                setImage("dmg.png");
+                Greenfoot.delay(8);
+                setImage("play.png");
             }
         }
     }
