@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ gameOver()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Move\ to\ face\ the\ mouse,\r\n\ and\ listen\ to\ the\ up\ and\ down\ keys.\r\n
+comment2.params=
+comment2.target=void\ removePickUp()
+comment3.params=
+comment3.target=void\ gameEnd()
+numComments=4
