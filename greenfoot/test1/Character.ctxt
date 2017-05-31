@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Character()
+comment0.text=private\ ArrayList<Item>\ inventory;\r\n\ \ \ \ private\ ArrayList<Sword>\ wpEquipment;\r\n\ \ \ \ private\ ArrayList<Shield>\ arEquipment;\r\n\ \ \ \ private\ Sword\ sword;\r\nprivate\ Shield\ shield;
+comment1.params=
+comment1.target=void\ foundItem()
+comment2.params=
+comment2.target=int\ getHealth()
+comment3.params=value
+comment3.target=void\ setHealth(int)
+comment4.params=
+comment4.target=int\ getDefense()
+comment5.params=value
+comment5.target=void\ setDefense(int)
+comment6.params=
+comment6.target=int\ getAttack()
+comment7.params=value
+comment7.target=void\ setAttack(int)
+numComments=8

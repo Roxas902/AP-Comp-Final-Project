@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=speed
+comment2.target=void\ FollowMouse(int)
+comment3.params=
+comment3.target=void\ findClosest()
+comment4.params=range\ power\ rate
+comment4.target=void\ attack(int,\ int,\ int)
+comment5.params=durration
+comment5.target=void\ supperSpeedy(int)
+numComments=6

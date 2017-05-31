@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Enemy()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Do\ whatever\ the\ Enemy\ likes\ to\ to\ just\ now.\r\n
+comment2.params=
+comment2.target=boolean\ findClosestPlayer()
+comment3.params=range
+comment3.target=void\ attackPlayer(int)
+comment3.text=\r\n\ Check\ whether\ there\ is\ a\ Player\ in\ the\ same\ cell\ as\ we\ are.\r\n
+comment4.params=
+comment4.target=void\ eatPlayer()
+comment4.text=\r\n\ Eat\ a\ Player.\r\n
+comment5.params=
+comment5.target=void\ moveRandom()
+comment6.params=min\ max
+comment6.target=void\ randomSpeed(int,\ int)
+numComments=7

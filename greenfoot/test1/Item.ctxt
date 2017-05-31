@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Item()
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=int\ getAttack()
+comment4.params=attack
+comment4.target=void\ setAttack(int)
+comment5.params=
+comment5.target=int\ getDefense()
+comment6.params=defense
+comment6.target=void\ setDefense(int)
+comment7.params=
+comment7.target=java.lang.String\ getItemDesc()
+comment8.params=itemDesc
+comment8.target=void\ setIDesc(java.lang.String)
+comment9.params=
+comment9.target=void\ use()
+numComments=10
