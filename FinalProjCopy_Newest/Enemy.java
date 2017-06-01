@@ -14,6 +14,7 @@ public class Enemy  extends Character
     private int pause;
     private int delay;
     private int animNum;
+    
     public Enemy()
     {
         super();
@@ -40,6 +41,7 @@ public class Enemy  extends Character
         foundItem();
         if (getHealth()<0){
             getWorld().removeObject(this);
+            killcount++;
         }
     }else if (pause<0){
         pause=0;

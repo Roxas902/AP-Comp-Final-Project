@@ -23,7 +23,7 @@ public class SpawnArena1 extends ScrollWorld
         
         //origin left block
         addObject(new Wall(), 200, 200);
-        addObject(new TeleportArena2(), 400, 700);
+        
         //top wall spawn room
         x=200;
          for(int i =0; i<7; i++){
@@ -164,5 +164,14 @@ public class SpawnArena1 extends ScrollWorld
           addObject(new Wall(), 1550 , y);
         }
         //System.out.println(y);
-    }
-}
+        
+        //Teleporter
+        addObject(new TeleportArena2(), 1450, 1150);
+        
+        //END ARENA OBJECTS//
+        
+        
+  
+            }
+        }
+

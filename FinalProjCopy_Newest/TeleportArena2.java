@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class TeleportArena2 extends ScrollActor
+public class TeleportArena2 extends Collision
 {
     /**
      * Act - do whatever the Teleporter wants to do. This method is called whenever
@@ -14,6 +14,7 @@ public class TeleportArena2 extends ScrollActor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+       
+    
+}
 }

@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu Jun 01 11:16:47 PDT 2017
+#Thu Jun 01 11:46:31 PDT 2017
 editor.fx.0.height=739
 target2.width=80
 target8.name=Enemy
@@ -194,7 +194,7 @@ target7.height=50
 dependency5.type=UsesDependency
 target8.type=ClassTarget
 class.enemy1.superclass=Collision
-class.TeleportArena2.image=blue-draught.png
+class.TeleportArena2.image=bluej-icon.png
 dependency9.type=UsesDependency
 target3.editor.height=700
 target6.width=90

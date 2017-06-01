@@ -5,6 +5,7 @@ public class Character extends Collision
     private int health;
     private int attack;
     private int defense;
+     public int killcount;
     /*private ArrayList<Item> inventory;
     private ArrayList<Sword> wpEquipment;
     private ArrayList<Shield> arEquipment;

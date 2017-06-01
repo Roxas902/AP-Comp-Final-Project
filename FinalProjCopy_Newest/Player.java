@@ -10,6 +10,7 @@ public class Player extends Character
 {
     private int timer;
     private int count;
+   
     public Player()
     {
         super();
@@ -24,7 +25,19 @@ public class Player extends Character
       
         attack(100, 20);
         
-       
+          if(getOneTouchedObject(TeleportArena2.class) != null){
+           nextLevel();
+        }  
+        if(getOneTouchedObject(TeleportArena3.class) != null){
+           nextLevel();
+        }  
+        if(getOneTouchedObject(TeleportArena4.class) != null){
+           nextLevel();
+        }  
+        if(getOneTouchedObject(TeleportSpawn.class) != null){
+           nextLevel();
+        }  
+        
         if (Greenfoot.isKeyDown("D")){
             supperSpeedy(100);
         }else{
@@ -58,11 +71,18 @@ public class Player extends Character
             getWorld().moveCamera(speed);
             if(getOneTouchedObject(Wall.class) != null){
                  getWorld().moveCamera(-speed);
+                 
+                }
+                if(getOneTouchedObject(TeleportArena2.class) != null){
+                 getWorld().moveCamera(-speed);
                 }
         }
         if (Greenfoot.isKeyDown("s")) {
             getWorld().moveCamera(-speed);
              if(getOneTouchedObject(Wall.class) != null){
+                 getWorld().moveCamera(speed);
+                }
+                if(getOneTouchedObject(TeleportArena2.class) != null){
                  getWorld().moveCamera(speed);
                 }
         }
@@ -117,28 +137,28 @@ public class Player extends Character
     }
     public void nextLevel()
      {
-                if (getOneObjectAtOffset(0,0,TeleportArena2.class) != null)
+                if (getOneTouchedObject(TeleportArena2.class) != null)
                 {
                     ScrollWorld arena2 = new Arena2();
-                    arena2.addObject(new Player(), 10, 200);
+                    arena2.addCameraFollower(new Player(), -85, -85);
                     Greenfoot.setWorld(arena2);
                 }
                 if (getOneTouchedObject(TeleportArena3.class) != null)
                 {
                     ScrollWorld arena3 = new Arena3();
-                    arena3.addObject(this, 10, 200);
+                    arena3.addCameraFollower(new Player(), -85, -85);
                     Greenfoot.setWorld(arena3);
                 }
                 if (getOneTouchedObject(TeleportArena4.class) != null)
                 {
                     ScrollWorld arena4 = new Arena4();
-                    arena4.addObject(this, 10, 200);
+                    arena4.addCameraFollower(new Player(), -85, -85);
                     Greenfoot.setWorld(arena4);
                 }
                 if (getOneTouchedObject(TeleportSpawn.class) != null)
                 {
                     ScrollWorld spawn = new SpawnArena1();
-                    spawn.addObject(this, 10, 200);
+                    spawn.addCameraFollower(new Player(), -85, -85);
                     Greenfoot.setWorld(spawn);
                 }
      }
