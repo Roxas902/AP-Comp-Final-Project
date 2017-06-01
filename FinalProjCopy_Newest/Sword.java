@@ -1,5 +1,5 @@
 import greenfoot.*;
-public class Sword extends Actor
+public class Sword extends ScrollActor
 {
     private int attack;
     public Sword(int attack)

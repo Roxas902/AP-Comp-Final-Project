@@ -5,7 +5,7 @@ import greenfoot.*;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Potion extends Actor
+public class Potion extends ScrollActor
 {
     private int health;
     private int attack;

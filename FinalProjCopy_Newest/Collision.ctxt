@@ -1,9 +1,7 @@
 #BlueJ class context
-comment0.target=Collision
-comment0.text=\r\n\ This\ class\ contains\ two\ methods\ for\ pixel-perfect\ collision-detection\r\n\ \r\n\ @author\ (Busch2207\ (Moritz\ L.))\ \r\n\ @version\ (09.11.2013)\r\n
-comment1.params=a_big
-comment1.target=boolean\ touch(greenfoot.Actor)
-comment1.text=This\ method\ is\ a\ pixel\ perfect\ collision\ detection.\ Returns\ true,\ if\ the\ object\ touchs\ the\ given\ Actor
-comment2.params=clss
-comment2.target=greenfoot.Actor\ getOneTouchedObject(java.lang.Class)
-numComments=3
+comment0.params=a_big
+comment0.target=boolean\ touch(greenfoot.Actor)
+comment0.text=This\ method\ is\ a\ pixel\ perfect\ collision\ detection.\ Returns\ true,\ if\ the\ object\ touchs\ the\ given\ Actor
+comment1.params=clss
+comment1.target=greenfoot.Actor\ getOneTouchedObject(java.lang.Class)
+numComments=2

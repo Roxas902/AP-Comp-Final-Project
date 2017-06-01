@@ -56,9 +56,15 @@ public class Player extends Character
     public void move(int speed) {
         if (Greenfoot.isKeyDown("w")) {
             getWorld().moveCamera(speed);
+            if(getOneTouchedObject(Wall.class) != null){
+                 getWorld().moveCamera(-speed);
+                }
         }
         if (Greenfoot.isKeyDown("s")) {
             getWorld().moveCamera(-speed);
+             if(getOneTouchedObject(Wall.class) != null){
+                 getWorld().moveCamera(speed);
+                }
         }
     } 
     public void findClosest(){
@@ -109,4 +115,31 @@ public class Player extends Character
         }
         timer++;
     }
+    public void nextLevel()
+     {
+                if (getOneObjectAtOffset(0,0,TeleportArena2.class) != null)
+                {
+                    ScrollWorld arena2 = new Arena2();
+                    arena2.addObject(new Player(), 10, 200);
+                    Greenfoot.setWorld(arena2);
+                }
+                if (getOneTouchedObject(TeleportArena3.class) != null)
+                {
+                    ScrollWorld arena3 = new Arena3();
+                    arena3.addObject(this, 10, 200);
+                    Greenfoot.setWorld(arena3);
+                }
+                if (getOneTouchedObject(TeleportArena4.class) != null)
+                {
+                    ScrollWorld arena4 = new Arena4();
+                    arena4.addObject(this, 10, 200);
+                    Greenfoot.setWorld(arena4);
+                }
+                if (getOneTouchedObject(TeleportSpawn.class) != null)
+                {
+                    ScrollWorld spawn = new SpawnArena1();
+                    spawn.addObject(this, 10, 200);
+                    Greenfoot.setWorld(spawn);
+                }
+     }
 }

@@ -1,11 +1,10 @@
 #BlueJ class context
-comment0.target=Shield
-comment1.params=defense
-comment1.target=Shield(int)
-comment2.params=
-comment2.target=int\ getDefense()
-comment3.params=defense
-comment3.target=void\ setDefense(int)
-comment4.params=
-comment4.target=void\ use()
-numComments=5
+comment0.params=defense
+comment0.target=Shield(int)
+comment1.params=
+comment1.target=int\ getDefense()
+comment2.params=defense
+comment2.target=void\ setDefense(int)
+comment3.params=
+comment3.target=void\ use()
+numComments=4

@@ -1,5 +1,5 @@
 import greenfoot.*;
-public class Shield extends Actor
+public class Shield extends ScrollActor
 {
     private int defense;
     public Shield(int defense)
