@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Potion
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ potion\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=heath\ attack\ defense
+comment1.target=Potion(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getAttack()
+comment3.params=attack
+comment3.target=void\ setAttack(int)
+comment4.params=
+comment4.target=int\ getDefense()
+comment5.params=defense
+comment5.target=void\ setDefense(int)
+comment6.params=
+comment6.target=int\ getHealth()
+comment7.params=health
+comment7.target=void\ setHealth(int)
+numComments=8
