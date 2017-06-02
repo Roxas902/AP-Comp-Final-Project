@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Display()
+comment0.text=\r\n\ Create\ a\ new\ Display\ reading.\r\n
+comment1.params=val
+comment1.target=void\ setDisplay(java.lang.Long)
+comment1.text=\r\n\ Set\ the\ value\ of\ the\ frames\ per\ second.\r\n\ @param\ val\ the\ value\ to\ set\ the\ Display\ to.\r\n
+comment2.params=val
+comment2.target=void\ setDisplay(java.lang.Double)
+comment2.text=\r\n\ Set\ the\ value\ of\ the\ frames\ per\ second.\r\n\ @param\ val\ the\ value\ to\ set\ the\ Display\ to.\r\n
+comment3.params=
+comment3.target=double\ getDisplay()
+comment3.text=\r\n\ Get\ the\ number\ of\ frames\ per\ second.\r\n\ @return\ the\ number\ of\ frames\ per\ second.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Calculate\ the\ Display\ based\ on\ the\ mode,\ and\r\n\ update\ the\ reading.\r\n
+comment5.params=value
+comment5.target=void\ updateImage(java.lang.String)
+comment5.text=\r\n\ Draw\ the\ image.<p>\r\n\ Sven\ van\ Nigtevecht\ slightly\ changed\ this,\r\n\ not\ so\ special\ though.\r\n\ @param\ value\ the\ Display\ value\r\n
+numComments=6
